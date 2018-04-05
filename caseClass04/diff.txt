@@ -1,0 +1,18 @@
+--- caseClass04.scala	2018-04-05 12:00:49.583274053 +0900
++++ caseClass04-1.scala	2018-04-05 12:00:37.213188111 +0900
+@@ -1,8 +1,14 @@
+-case class Number(num: Float){
++class Number(num: Float){
+   protected var pi = num
+   println(pi)
+ }
+ 
++object Number{
++  def apply(num: Float) {
++    new Number(num)
++  }
++}
++
+ object Main extends App{
+   Number(3.14F)
+ }
