@@ -17,6 +17,7 @@ object Main extends App {
             case _
             => println("Unmatch!")
         }
+        
 
     val dateRegex2 = raw"(\d\d\d\d)/(\d\d)/(\d\d)".r 
         dateSlash match {
