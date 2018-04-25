@@ -7,5 +7,5 @@ object Main extends App {
                 => 0
         }
     }
-    println( "7 + 236 + 34 + 4567 + " + calcSum(7::236::34::4567::Nil))
+    println( "7 + 236 + 34 + 4567 =" + calcSum(7::236::34::4567::Nil))
 }

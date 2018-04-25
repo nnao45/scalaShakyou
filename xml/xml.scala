@@ -18,7 +18,7 @@ object Main extends App {
             </students>
                 => println(name + "::" + classNo)
         case _
-                =>
+                => println("no match")
     }
 
 
