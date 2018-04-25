@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /scaladev/scalaShakyou
+cd /repo/scala/scalaShakyou
 git pull
 git add .
 git commit -m "`date`"
